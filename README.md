@@ -24,9 +24,11 @@ Visual
 4. python Train\Train_VisualEncoder_EfficientNet_frozen_DGAF_batch.py
 
 Stage2
+
 python Train\TrainSEECAT_ComplexGatedMultimodalUnit_HNM_LossBalanceLog2.py
 
 
 Other details
 
-The random seeds are 983, 247, 615, 34, 872. Different part of the pipeline are conducted on NVIDIA A100 and RTX 3090 GPUs, respectively. 
+The random seeds are 983, 247, 615, 34, 872. 
+Different part of the pipeline are conducted on NVIDIA A100 and RTX 3090 GPUs, respectively. 
