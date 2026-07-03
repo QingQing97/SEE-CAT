@@ -30,5 +30,6 @@ python Train\TrainSEECAT_ComplexGatedMultimodalUnit_HNM_LossBalanceLog2.py
 
 Other details
 1. The random seeds are 983, 247, 615, 34, 872. 
-2. Different part of the pipeline are conducted on NVIDIA A100 (Text), 5090D V2 (Inference) and RTX 3090 GPUs (Other parts), respectively.
-3. For feature extraction, the average utterance time costs are approximately 7.4 ms for text, 9.7 s for audio, and 8.1 s for visual. 
+2. Different stages of the pipeline are run on different GPUs: text processing on NVIDIA A100, audio/visual processing and Stage 2 training on RTX 3090, and inference on RTX 5090D V2.
+3. For feature extraction, the average utterance time costs are approximately 7.4 ms for text, 9.7 s for audio, and 8.1 s for visual. The inference time after feature extraction is approximately 0.7 ms per utterance.
+ 
