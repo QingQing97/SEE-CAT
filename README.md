@@ -2,6 +2,7 @@
 Our code framework references the publicly available repository https://github.com/TaoShi1998/MultiEMO-ACL2023.git
 
 Stage1
+
 Text
 1. python text_code/baselineTrain.py
 2. python text_code/meld_pkltrans.py
@@ -27,4 +28,5 @@ python Train\TrainSEECAT_ComplexGatedMultimodalUnit_HNM_LossBalanceLog2.py
 
 
 Other details
+
 The random seeds are 983, 247, 615, 34, 872. Different part of the pipeline are conducted on NVIDIA A100 and RTX 3090 GPUs, respectively. 
